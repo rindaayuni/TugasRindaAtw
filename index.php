@@ -61,3 +61,27 @@ echo "<br>";
 echo "suara: $Elang->suara";
 echo "<hr>";
 
+class Anjing{
+	public $nama, $jumlah_kaki, $bisa_terbang,  $suara;
+}
+
+$Anjing = new Anjing;
+$Anjing->nama = "papoy";
+$Anjing->jumlah_kaki = "4";
+$Anjing->bisa_terbang = "tidak";
+$Anjing->suara = "Guk Guk";
+
+echo "Anjing <br>";
+echo "Nama: $Anjing->nama";
+echo "<br>";
+echo "jumlah_kaki: $Anjing->jumlah_kaki";
+echo "<br>";
+echo "bisa_terbang: $Anjing->bisa_terbang";
+echo "<br>";
+echo "suara: $Anjing->suara";
+echo "<hr>";
+
+
+
+
+
