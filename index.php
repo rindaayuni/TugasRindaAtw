@@ -1,4 +1,5 @@
 <?php
+echo "Animal";
 class Kucing{
 public $nama, $jumlah_kaki, $bisa_terbang,
 		$suara;
