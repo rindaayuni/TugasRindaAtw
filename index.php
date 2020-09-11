@@ -40,3 +40,24 @@ echo "Bisa_terbang $Angsa->bisa_terbang";
 echo "<br>";
 echo "Suara $Angsa->suara";
 echo "<hr>";
+
+class Elang{
+	public $nama, $jumlah_kaki, $bisa_terbang, $suara;
+}
+
+$Elang = new Elang;
+$Elang->nama = "Fiacra";
+$Elang->jumlah_kaki ="2";
+$Elang->bisa_terbang ="iya";
+$Elang->suara = "miiip";
+
+echo "Elang <br>";
+echo "Nama: $Elang->nama";
+echo "<br>";
+echo "jumlah_kaki: $Elang->jumlah_kaki";
+echo "<br>";
+echo "bisa_terbang: $Elang->bisa_terbang";
+echo "<br>";
+echo "suara: $Elang->suara";
+echo "<hr>";
+
