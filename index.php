@@ -1,5 +1,5 @@
 <?php
-echo "Animal";
+echo "Animal <hr>";
 class Kucing{
 public $nama, $jumlah_kaki, $bisa_terbang,
 		$suara;
@@ -19,7 +19,7 @@ echo "jumlah kaki: $Kucing->jumlah_kaki";
 echo "<br>";
 echo "bisa terbang: $Kucing->bisa_terbang";
 echo "<br>";
-echo "suara: $kucing->suara";
+echo "suara: $Kucing->suara";
 echo "<hr>";
 
 class Angsa{
